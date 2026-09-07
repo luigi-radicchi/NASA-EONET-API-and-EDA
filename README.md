@@ -56,7 +56,9 @@ The state and nations of the event has been retrieved by parsing from the title 
 
 ## Data Model
 Final analytical table:
-ariableDescriptionidEvent identifiertitleEvent titlecategoryEvent categorysourceObservation sourcefirst_observationFirst recorded observationlatitudeLatitudelongitudeLongitudeyearObservation yearmonthObservation month
+Variable Description
+id Event 
+identifiertitleEvent titlecategoryEvent categorysourceObservation sourcefirst_observationFirst recorded observationlatitudeLatitudelongitudeLongitudeyearObservation yearmonthObservation month
 ### Date Features
 Feature engineering produced:
 
