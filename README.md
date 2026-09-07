@@ -54,13 +54,40 @@ The first available coordinate pair was extracted and used as the event referenc
 Latitude and longitude were extracted into dedicated columns.
 The state and nations of the event has been retrieved by parsing from the title of the event which included also the location.
 
-## Data Model
-Final analytical table:
-<p align="center">
-<img src="images/07_table.png" width="900">
 ### Date Features
 Feature engineering produced:
 
  - Year
  - Month Number
  - Month Name
+
+## Data Model
+Final analytical table:
+<p align="center">
+<img src="images/07_table.png" width="900">
+
+## Exploratory Data Analysis (EDA)
+### Event categories
+Distribution of the categories of events:
+<p align="center">
+<img src="images/08_event_categories.png" width="900">
+
+### Temporal analysis
+<p align="center">
+<img src="images/01_events_per_year.png" width="900">
+
+<p align="center">
+<img src="images/02_events_by_month.png" width="900">
+
+### Geospatial Analysis
+<p align="center">
+<img src="images/03_top_ten_affected_nations.png" width="900">
+
+<p align="center">
+<img src="images/04_nations_affected_by_volcanoes.png" width="900">
+
+<p align="center">
+<img src="images/05_wildfire_USA.png" width="900">
+
+<p align="center">
+<img src="images/06_events_worldwide.png" width="900">
