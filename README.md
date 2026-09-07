@@ -64,13 +64,13 @@ Feature engineering produced:
 ## Data Model
 Final analytical table:
 <p align="center">
-<img src="images/07_table.png" width="700">
+<img src="images/07_table.png" width="600">
 
 ## Exploratory Data Analysis (EDA)
 ### Event categories
 Distribution of the categories of events:
 <p align="center">
-<img src="images/08_event_categories.png" width="300">
+<img src="images/08_event_categories.png" width="200">
 
 ### Temporal analysis
 <p align="center">
@@ -91,3 +91,22 @@ Distribution of the categories of events:
 
 <p align="center">
 <img src="images/06_events_worldwide.png" width="900">
+
+## Key Insights
+ - Wildfires represent the largest share of recorded events within the dataset.
+ - Severe storms are primarily concentrated in tropical and coastal regions.
+ - Natural events show clear geographical clustering rather than a uniform global distribution.
+ - Several categories exhibit seasonal behavior across the observation period.
+ - USA is the most affected nation, followed by Australia and Brazil
+ - Arkansas, Texas and Florida are the top 3 states affected by natural disasters.
+
+## Skills Demonstrated
+ - API Consumption
+ - JSON Parsing
+ - Data Cleaning
+ - Data Wrangling
+ - Feature Engineering
+ - Exploratory Data Analysis (EDA)
+ - Data Visualization
+ - Geospatial Analytics
+ - Python Programming
