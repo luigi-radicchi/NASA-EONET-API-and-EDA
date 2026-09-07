@@ -64,13 +64,13 @@ Feature engineering produced:
 ## Data Model
 Final analytical table:
 <p align="center">
-<img src="images/07_table.png" width="900">
+<img src="images/07_table.png" width="700">
 
 ## Exploratory Data Analysis (EDA)
 ### Event categories
 Distribution of the categories of events:
 <p align="center">
-<img src="images/08_event_categories.png" width="900">
+<img src="images/08_event_categories.png" width="300">
 
 ### Temporal analysis
 <p align="center">
