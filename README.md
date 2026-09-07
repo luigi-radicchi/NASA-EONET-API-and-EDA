@@ -97,6 +97,7 @@ Distribution of the categories of events:
  - Severe storms are primarily concentrated in tropical and coastal regions.
  - Natural events show clear geographical clustering rather than a uniform global distribution.
  - Several categories exhibit seasonal behavior across the observation period.
+ - Indonesia, Russia and Japan are the top 3 nations affected by volcanoes.
  - USA is the most affected nation, followed by Australia and Brazil
  - Arkansas, Texas and Florida are the top 3 states affected by natural disasters.
 
