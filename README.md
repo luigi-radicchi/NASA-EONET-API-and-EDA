@@ -26,3 +26,37 @@ Data retrieved includes:
  - Geographic coordinates
 
 Data was collected through the NASA EONET REST API using Python and the Requests library.
+
+## Data Cleaning
+The original JSON structure contained several nested fields.
+
+The following transformations were applied:
+
+### Categories
+Category dictionaries were flattened into a single categorical field.
+
+### Sources
+Events may contain multiple observation sources.
+
+To preserve a one-event-per-row structure, source identifiers were concatenated into a single text field.
+
+### Temporal Observations
+Some events contain multiple temporal observations.
+
+Only the first observation was retained to avoid event duplication and maintain analytical consistency.
+
+### Spatial Observations
+Events may contain multiple geographic observations.
+
+The first available coordinate pair was extracted and used as the event reference location.
+
+### Geographical Features
+Latitude and longitude were extracted into dedicated columns.
+The state and nations of the event has been retrieved by parsing from the title of the event which included also the location.
+
+### Date Features
+Feature engineering produced:
+
+ - Year
+ - Month Number
+ - Month Name
