@@ -54,6 +54,9 @@ The first available coordinate pair was extracted and used as the event referenc
 Latitude and longitude were extracted into dedicated columns.
 The state and nations of the event has been retrieved by parsing from the title of the event which included also the location.
 
+## Data Model
+Final analytical table:
+ariableDescriptionidEvent identifiertitleEvent titlecategoryEvent categorysourceObservation sourcefirst_observationFirst recorded observationlatitudeLatitudelongitudeLongitudeyearObservation yearmonthObservation month
 ### Date Features
 Feature engineering produced:
 
